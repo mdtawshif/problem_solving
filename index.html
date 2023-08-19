@@ -13,28 +13,16 @@
                 importFunction.src = `./${folderName}/function.js`;
                 document.head.appendChild(importFunction);
                 /* use case */
-                const largestElement = document.createElement('script');
-                largestElement.src = `./${folderName}/largest_element.js`;
-                document.head.appendChild(largestElement);
-
-                const halfString = document.createElement('script');
-                halfString.src = `./${folderName}/half_string.js`;
-                document.head.appendChild(halfString);
-
-                const maxDifference = document.createElement('script');
-                maxDifference.src = `./${folderName}/max_difference.js`;
-                document.head.appendChild(maxDifference);
-
-                const removeDuplicate = document.createElement('script');
-                removeDuplicate.src = `./${folderName}/remove_duplicate.js`;
-                document.head.appendChild(removeDuplicate);
-
-                const stringReverse = document.createElement('script');
-                stringReverse.src = `./${folderName}/string_reverse.js`;
-                document.head.appendChild(stringReverse);
+                const importTest = document.createElement('script');
+                importTest.src = `./${folderName}/test.js`;
+                document.head.appendChild(importTest);
             }
             /* pass the folder name here: try to avoid empty space in folder name */
-            loadFile('all_problems');
+            // loadFile('largest_element');
+            // loadFile('max_pair_diff');
+            // loadFile('print_half_string');
+            // loadFile('remove_duplicate_from_array');
+            loadFile('reverse_given_string');
         </script>
 </body>
 </html>
