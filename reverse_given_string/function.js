@@ -1,5 +1,3 @@
-
-
 reverseStr = (str) => {
     const size = str.length;
     var newStr = [''];

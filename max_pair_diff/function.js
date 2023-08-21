@@ -14,3 +14,29 @@ differenceBetweenPair = (arr) => {
     const maxDiff = largestNum - smallestNum;
     return maxDiff;
 }
+
+
+
+// function differenceBetweenPair(list){
+//   const length = list.length;
+//   if(length < 3){
+//     return "Differenct is: " + (list[0] > list[1] ? list[0] - list[1] : list[1]- list[0])
+//   }
+//   let largest = list[0], smallest = list[1];
+//   if(largest < smallest){
+//     let swap = largest;
+//     largest = smallest;
+//     smallest = swap;
+//   }
+
+//   for(let i=2; i<length; i++){
+//     if(list[i] > largest){
+//         largest = list[i];
+//     }
+//     else if(list[i] < smallest){
+//         smallest = list[i];
+//     }
+//   }
+
+//   return  (largest - smallest);
+// }
