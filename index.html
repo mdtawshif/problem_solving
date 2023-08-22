@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-            function loadFile (folderName) {
-                /* function */
-                const importFunction = document.createElement('script');
-                importFunction.src = `./${folderName}/function.js`;
-                document.head.appendChild(importFunction);
-                /* use case */
-                const importTest = document.createElement('script');
-                importTest.src = `./${folderName}/test.js`;
-                document.head.appendChild(importTest);
-            }
-            /* pass the folder name here: try to avoid empty space in folder name */
-            // loadFile('largest_element');
-            // loadFile('max_pair_diff');
-            // loadFile('print_half_string');
-            // loadFile('remove_duplicate_from_array');
-            // loadFile('reverse_given_string');
-            // loadFile('same_number_in_two_array');
-            loadFile('turn_number_digitArray');
+        function loadFile(folderName) {
+            /* function */
+            const importFunction = document.createElement('script');
+            importFunction.src = `./${folderName}/function.js`;
+            document.head.appendChild(importFunction);
+            /* use case */
+            const importTest = document.createElement('script');
+            importTest.src = `./${folderName}/test.js`;
+            document.head.appendChild(importTest);
+        }
+        /* pass the folder name here: try to avoid empty space in folder name */
+        // loadFile('largest_element');
+        // loadFile('max_pair_diff');
+        // loadFile('print_half_string');
+        // loadFile('remove_duplicate_from_array');
+        // loadFile('reverse_given_string');
+        // loadFile('same_number_in_two_array');
+        // loadFile('turn_number_digitArray');
+        loadFile('sumArray_map_reduce');
 
-        </script>
+
+        
+    </script>
 </body>
+
 </html>
